@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+    background: #eef2f5;
+    color: #222;
+}
+
+.app {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin: 30px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #157347;
+}
+
+header p {
+    color: #666;
+    margin-top: 8px;
+}
+
+.bigButton {
+    width: 100%;
+    padding: 22px;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 18px;
+    background: #157347;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: .2s;
+}
+
+.bigButton:hover {
+    background: #12643c;
+}
+
+.menuButton {
+    width: 100%;
+    padding: 18px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 16px;
+    background: white;
+    margin-bottom: 15px;
+    cursor: pointer;
+    box-shadow: 0 3px 12px rgba(0,0,0,.08);
+}
+
+.courseMap {
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 3px 12px rgba(0,0,0,.08);
+}
+
+.courseMap h2 {
+    margin-bottom: 10px;
+}
